@@ -16,7 +16,7 @@
 
 .nav-links a {
     border: 1px solid transparent;
-    color: rgb(41, 41, 41);
+    color: var(--black-color);
     text-decoration: none;
     padding: 0.5rem;
     border-radius: 5px;
@@ -27,15 +27,15 @@
 .nav-links a:hover,
 .nav-links a:active,
 .nav-links a.active {
-    background: rgb(151, 165, 93);
-    border-color: rgb(240, 187, 120);
-    color: rgb(41, 41, 41);
+    background: var(--primary-color);
+    border-color: var(--secondary-color);
+    color: var(--black-color);
 }
 
 .nav-links button {
     cursor: pointer;
-    border: 1px solid rgb(41, 41, 41);
-    color: rgb(41, 41, 41);
+    border: 1px solid var(--black-color);
+    color: var(--black-color);
     background: transparent;
     padding: 0.5rem;
 }
@@ -60,7 +60,7 @@
 
     .nav-links button:hover,
     .nav-links button:active {
-        background: #f80000;
-        color: #292929;
+        background: var(--accent-color);
+        color: var(--black-color);
     }
 }

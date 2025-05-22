@@ -25,11 +25,11 @@
     font-size: 1.5rem;
     margin-bottom: 0.5rem;
     font-weight: normal;
-    color: rgb(48, 48, 48);
+    color: var(--black-color);
     transition: 0.2s;
 }
 
 .user-item__info:hover h2 {
     /* cursor: pointer; */
-    color: #78846c;
+    color: var(--primary-color);
 }

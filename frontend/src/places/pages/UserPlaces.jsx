@@ -37,7 +37,31 @@ const PLACES = [
             lat: 45.580460,
             lng: 145.129860
         },
-        creator: "u2"
+        creator: "u3"
+    },
+    {
+        id: "p4",
+        title: "Перевал Дятлова",
+        description: "Перевал Дятлова — перевал на Северном Урале между горой Холатчахль (1096,7 м) и безымянной высотой 905 м, стоящей несколько особняком к востоку от Главного Уральского хребта.",
+        image: "https://rgo.ru/upload/content_block/images/0093196787b21e3185fbc8816e7c2ebe/c1f84065d922b5e79312f48b3719f41d.jpg?itok=1JrrrC7h",
+        address: "Свердловская область, Россия",
+        location: {
+            lat: 61.756585,
+            lng: 59.470532
+        },
+        creator: "u4"
+    },
+    {
+        id: "p5",
+        title: "Пролив Дрейка",
+        description: "Проли́в Дрейка — межконтинентальный пролив, соединяющий южные части Атлантического и Тихого океанов.",
+        image: "https://encrypted-tbn2.gstatic.com/licensed-image?q=tbn:ANd9GcR9d5N7WS4x1extGU2xlrCmjw0mFzhv-4eD5ysfXL7uy--zUfcNFbIRqrj4YQwM7nb11QNkRSVg_2_JxnwikLEMV0wGmd_lFQ3gFFjEaA",
+        address: "Мыс Горн",
+        location: {
+            lat: -60.795062,
+            lng: -65.265175
+        },
+        creator: "u4"
     }
 ]
 

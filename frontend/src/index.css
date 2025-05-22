@@ -1,16 +1,27 @@
+:root {
+    --main-bg-color: rgb(245, 236, 213);
+    --primary-color: rgb(151, 165, 93);
+    --secondary-color: rgb(240, 187, 120);
+    --accent-color: rgb(102, 81, 52);
+    --black-color: rgb(41, 41, 41);
+}
+
 * {
     list-style: none;
     margin: 0;
     padding: 0;
     text-decoration: none;
-    color: #665134;
+    color: var(--accent-color);
     font-weight: normal;
     box-sizing: border-box;
 }
 
-body {
+html {
     font-family: sans-serif;
-    background-color: #F5ECD5;
+}
+
+body {
+    background-color: var(--main-bg-color);
 }
 
 .center {
