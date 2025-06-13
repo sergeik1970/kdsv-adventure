@@ -15,7 +15,11 @@ const PlaceItem = props => {
     return (
 
         <>
-        <Modal show={showMap} onCancel={closeMapHandler}/>
+            <Modal show={showMap} header={props.address} footer={<Button onClick={closeMapHandler}>Закрыть</Button>} onCancel={closeMapHandler}>
+                <div className="map__container">
+                    <iframe src="https://yandex.ru/map-widget/v1/?ll=31.037775%2C59.954001&z=15" width="100%" height="400" frameborder="0" allowfullscreen="true"></iframe>
+                </div>
+            </Modal>
 
             <Card className="place-item__content">
                 <li className="place-item">
