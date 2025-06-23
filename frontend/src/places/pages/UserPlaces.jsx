@@ -10,8 +10,8 @@ const PLACES = [
         image: "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nr-mUKXH_NZ6xY5zYXddCP13i9vj8_hIaAQqBxLsEbeZ1nGnqYSZjaDnhaeLFt_l1PvwzkgAAsHk4t9EEED1UCUhe5oFFPm_JmdRcwwrwqjD5zrxWyCndaXFtZv-g3ArAX-4sypHw=s1360-w1360-h1020-rw",
         address: "Остров Ореховый, Шлиссельбург, Ленинградская область",
         location: {
-            lat: 59.954780,
-            lng: 30.286296
+            lat: 59.953745,
+            lng: 31.038275
         },
         creator: "u1"
     },
@@ -22,8 +22,8 @@ const PLACES = [
         image: "https://core-pht-proxy.maps.yandex.ru/v1/photos/download?photo_id=u2wDIeAFuriXKPbEotH&image_size=XXL",
         address: "Сахалин, Россия",
         location: {
-            lat: 45.580460,
-            lng: 145.129860
+            lat: 53.875114,
+            lng: 141.430767
         },
         creator: "u2"
     },
@@ -34,8 +34,8 @@ const PLACES = [
         image: "https://images.unsplash.com/photo-1559683907-5e9549adad37?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         address: "Санкт-Петербург, Россия",
         location: {
-            lat: 45.580460,
-            lng: 145.129860
+            lat: 59.940082,
+            lng: 30.312814
         },
         creator: "u3"
     },
@@ -46,8 +46,8 @@ const PLACES = [
         image: "https://rgo.ru/upload/content_block/images/0093196787b21e3185fbc8816e7c2ebe/c1f84065d922b5e79312f48b3719f41d.jpg?itok=1JrrrC7h",
         address: "Свердловская область, Россия",
         location: {
-            lat: 61.756585,
-            lng: 59.470532
+            lat: 61.756354,
+            lng: 59.471279
         },
         creator: "u4"
     },
