@@ -1,6 +1,11 @@
+import "./NewPlace.css"
+import Input from "../../shared/components/FormElements/Input";
+
 const NewPlace = () => {
     return ( 
-        <h2>Добавить место</h2>
+        <form class="place-form">
+            <Input element="input" type="text" label="Название" />
+        </form>
      );
 }
  
